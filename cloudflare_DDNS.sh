@@ -7,8 +7,8 @@ ROOT_DOMAIN=""      # 根域名
 SUB_DOMAIN="" # 完整的解析记录域名
 SLEEP_TIME=60                 # 检查频率（秒）
 
-IP_HISTORY_FILE="./ip_history.log" 
-LOG_FILE="./cf_ddns.log"
+IP_HISTORY_FILE="/root/DDNS/ip_history.log" 
+LOG_FILE="/root/DDNS/cf_ddns.log"
 # ===========================================
 
 FAIL_COUNT=0
